@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import '@polymer/paper-button/paper-button';
+import '@polymer/paper-toolbar/paper-toolbar';
 
 @Component({
   selector: 'app-root',

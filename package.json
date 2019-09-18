@@ -19,7 +19,7 @@
     "@angular/platform-browser": "~8.2.5",
     "@angular/platform-browser-dynamic": "~8.2.5",
     "@angular/router": "~8.2.5",
-    "@polymer/paper-button": "^3.0.1",
+    "@polymer/paper-toolbar": "^3.0.1",
     "@webcomponents/custom-elements": "^1.2.4",
     "@webcomponents/shadycss": "^1.9.1",
     "@webcomponents/shadydom": "^1.6.0",
