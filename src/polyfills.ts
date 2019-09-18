@@ -55,9 +55,18 @@
 /***************************************************************************************************
  * Zone JS is required by default for Angular itself.
  */
-import 'zone.js/dist/zone';  // Included with Angular CLI.
-
+import 'zone.js/dist/zone'; // Included with Angular CLI.
 
 /***************************************************************************************************
  * APPLICATION IMPORTS
  */
+
+import '@webcomponents/custom-elements/src/native-shim';
+import '@webcomponents/webcomponents-platform';
+
+import '@webcomponents/shadydom/src/shadydom';
+import '@webcomponents/shadycss/entrypoints/scoping-shim';
+import '@webcomponents/shadycss/entrypoints/custom-style-interface';
+
+import '@webcomponents/template';
+import '@webcomponents/custom-elements/src/custom-elements';
